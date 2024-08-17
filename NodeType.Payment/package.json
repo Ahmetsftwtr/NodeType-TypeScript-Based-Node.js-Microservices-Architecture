@@ -4,9 +4,8 @@
     "description": "A server application using TypeScript and Express",
     "main": "dist/server.js",
     "scripts": {
-        "clean": "rimraf dist",
         "build": "tsc",
-        "start": "npm run clean && npm run build && node dist/NodeType.Payment/src/server.js",
+        "start": "npm run build && node dist/NodeType.Payment/src/server.js",
         "dev": "npm run build && npm run start"
     },
     "dependencies": {
