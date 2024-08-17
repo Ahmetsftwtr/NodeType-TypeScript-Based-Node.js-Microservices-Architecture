@@ -1,0 +1,13 @@
+{
+    "name": "NodeType",
+    "version": "1.0.0",
+    "scripts": {
+        "start:project1": "cd NodeType.Payment && npm start",
+        "start:project2": "cd NodeType.User && npm start",
+        "start:project3": "cd NodeType.Product && npm start",
+        "nodetype": "npm-run-all --parallel start:project1 start:project2 start:project3"
+    },
+    "devDependencies": {
+        "npm-run-all": "^4.1.5"
+    }
+}
